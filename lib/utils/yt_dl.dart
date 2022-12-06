@@ -48,8 +48,6 @@ class YTDLUtils {
       ];
     } else {
       args = [
-        '--format-sort',
-        'res:1080',
         '--embed-metadata',
         '--embed-thumbnail',
         '--embed-chapters',
